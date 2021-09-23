@@ -36,7 +36,13 @@
 
 - Modificar valores en tiempo de ejecución (no recomendable).
 
-  ![TextoenEjecucion](/home/nacho/Imágenes/TextoenEjecucion.png)
+  ```java
+  /**
+   * 3. Modificar el texto en tiempo de ejecución, no es recomendable.
+   * Lo recomendable es modificar el texto en el layout.
+   */
+  tvMessage.setText(R.string.msgCaracola);
+  ```
 
 - Recoger recursos en una Activity con getResources().
 
@@ -71,7 +77,11 @@
 9. Diferencia entre el contexto de Application y Activity, a raiz de la clase ContextCompat (recoger el contexto del Activity indicado con this).
 
    ```java
-   //Resulta que para coger el color lo tenemos que coger del contexto de la Activity y no de Application, por eso utilizamos la clase ContextCompat, siendo this el contexto actual en el que estamos trabajando (MainActivity).
+   /**
+   * Resulta que para coger el color lo tenemos que coger del contexto de la Activity
+   * y no de Application, por eso utilizamos la clase ContextCompat, siendo this el
+   * contexto * actual en el que estamos trabajando (MainActivity).
+   */
    btChangeMessage.setBackgroundColor(ContextCompat.getColor(this,R.color.teal_200));
    ```
 
@@ -81,8 +91,9 @@
 
 ## Links:
 
-[](https://developer.android.com/)
+[(https://developer.android.com/)](https://developer.android.com/)
 
-[](https://material.io/resources/color/#!/?view.left=0&view.right=0)
+[(https://material.io/resources/color/#!/?view.left=0&view.right=0)](https://material.io/resources/color/#!/?view.left=0&view.right=0)
 
-[](https://gist.github.com/dasdo/9ff71c5c0efa037441b6)
+[(https://gist.github.com/dasdo/9ff71c5c0efa037441b6)](https://gist.github.com/dasdo/9ff71c5c0efa037441b6)
+
