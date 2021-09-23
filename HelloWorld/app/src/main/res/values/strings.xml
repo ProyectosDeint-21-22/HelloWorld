@@ -1,3 +1,8 @@
+<!--Para internacionalizar los strings:
+    1. Abrir Open editor
+    2. Icono mundo, y seleccionamos el idioma que queremos traducir.
+    3. Traducir strings por strings en la cuarta columna.
+    4. Si un string no queremos que se traduzca lo marcamos como Untranslatable-->
 <resources>
     <string name="app_name">HelloWorld</string>
     <string name="btMessage">Change Message</string>
